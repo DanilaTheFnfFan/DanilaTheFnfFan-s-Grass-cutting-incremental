@@ -54,14 +54,14 @@ function updateResetHTML(id) {
 
 el.update.reset = ()=> {
     if (mapID == 'pc') {
-        updateResetHTML('pp')
+        updateResetHTML('coins')
         updateResetHTML('crystal')
 
         updateResetHTML('ap')
         updateResetHTML('oil')
 
         updateResetHTML('np')
-        updateResetHTML('cloud')
+        updateResetHTML('water')
 
         updateResetHTML('astro')
         updateResetHTML('quadrant')
@@ -85,13 +85,5 @@ el.update.reset = ()=> {
     }
     else if (mapID == 'auto') {
         updateResetHTML('formRing')
-    }
-
-    if (mapID2 == 'sac') {
-        updateResetHTML('sac')
-        updateResetHTML('enterPlanetoid')
-    }
-    else if (mapID2 == 'ap') {
-        updateResetHTML('astralPrestige')
     }
 }
